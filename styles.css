@@ -38,6 +38,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin: 10px;
+    transition: transform 0.2s ease; /* Añadido para suavizar el cambio de tamaño */
 }
 
 .yes {
