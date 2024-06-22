@@ -50,7 +50,7 @@ document.getElementById('noButton').addEventListener('click', function() {
     if (currentPhrase < phrases.length) {
         document.getElementById('apologyMessage').textContent = phrases[currentPhrase];
         currentPhrase++;
-        yesButton.style.transform = `scale(${1 + currentPhrase * 0.1})`;
+        yesButton.style.transform = `scale(${1 + currentPhrase * 0.1})`;  // Corregido para agrandar el botón "Sí"
     }
 });
 
