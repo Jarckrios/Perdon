@@ -31,7 +31,6 @@ p {
 }
 
 button {
-    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -41,8 +40,20 @@ button {
     margin: 10px;
 }
 
-button:hover {
+.yes {
+    background-color: #4CAF50;
+}
+
+.yes:hover {
     background-color: #45a049;
+}
+
+.no {
+    background-color: #f44336;
+}
+
+.no:hover {
+    background-color: #e53935;
 }
 
 #message {
